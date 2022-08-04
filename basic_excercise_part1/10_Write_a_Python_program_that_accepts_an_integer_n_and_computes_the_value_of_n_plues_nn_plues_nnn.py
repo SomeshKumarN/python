@@ -1,0 +1,12 @@
+"""
+Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn. 
+
+Sample value of n is 5
+
+Expected Result : 615
+"""
+
+#Solution:
+
+n = input("Enter any number:")
+print("The output is-",int(n)+int(n+n)+int(n+n+n))
