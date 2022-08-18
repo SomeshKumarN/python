@@ -1,3 +1,0 @@
-import datetime as dt
-current_datetime = dt.datetime.now()
-print("Current Datetime And Time :",current_datetime)
