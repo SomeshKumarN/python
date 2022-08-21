@@ -9,5 +9,11 @@ print(add(2,"3"))
 print(add(2,4))
 print(add('',''))
 
+list = [1,2,3,4,5]
+for i in list:
+    print(i)
+    print(type(i))
+    print(type(i) == int)
+
 
 

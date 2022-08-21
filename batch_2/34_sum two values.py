@@ -1,6 +1,6 @@
 # Write a Python program to sum of two given integers.
 # However, if the sum is between 15 to 20 it will return 20.
-def sum(num_1,num_2):
+def sum(num_1:int,num_2:int):
     
         if isinstance(num_1,int) and isinstance(num_2,int):
         #num_1 = int(num_1)
@@ -20,3 +20,4 @@ print(sum(-5,-5))
 print(sum(5,-5))
 print(sum('','')) 
 print(sum(2.0,3.3))       
+print(sum('',''))

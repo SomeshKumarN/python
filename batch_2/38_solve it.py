@@ -3,11 +3,17 @@
 # Expected Output : (4 + 3) ^ 2) = 49
 
 def solve(x,y):
-    try:
-        add = x + y
+    if isinstance(x,int) and isinstance(y,int):
+        add = x + y 
         return(add**2)
-    except:
-        return "Invalid Input"    
+    else:
+        return "Invalid input"    
+
+    # try:
+    #     add = x + y
+    #     return(add**2)
+    # except:
+    #     return "Invalid Input"    
 print(solve(4,3))
 print(solve("",""))
 print(solve(-2,90))
