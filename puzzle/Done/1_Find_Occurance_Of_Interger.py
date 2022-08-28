@@ -13,3 +13,16 @@ Input:
 Output:
 True
 """
+#solution
+test = 1
+def list(a):
+    global test
+    print('Test--->',test)
+    if (a.count(19) == 2) and (a.count(5) >= 3) :
+        print('True')
+    else:
+        print('False')
+    test+=1        
+list([19, 19, 15, 5, 5, 5, 3, 2])
+list([19, 15, 15, 5, 3, 3, 5, 2])
+list([19, 19, 5, 5, 5, 5, 5])
