@@ -21,14 +21,9 @@ Output:
 def x(givenno):
     try:
         lst = [givenno]
-        if givenno % 2 == 0:
-            for i in range(givenno-1):
-                givenno = givenno + 2
-                lst.append(givenno)
-        elif givenno % 2 == 1:
-            for i in range(givenno-1):
-                givenno = givenno + 2
-                lst.append(givenno)
+        for i in range(givenno-1):
+            givenno = givenno + 2
+            lst.append(givenno)
         print(lst)
     except:
         print('Invalid Input')                
