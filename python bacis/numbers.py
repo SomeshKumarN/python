@@ -8,8 +8,8 @@ myNum2 = 0x1117
 myNum3 = 0o1117
 myNum4 = 0b1110
 
-print("Data Type of 1117 is {}".format(type(myNum1)))
-print("Data Type of 0x1117 is {}".format(type(myNum2)))
-print("Data Type of 0o1117 is {}".format(type(myNum3)))
-print("Data Type of 0b1110 is {}".format(type(myNum4)))
+print("Data Type of 1117 is {}".format(myNum1))
+print("Data Type of 0x1117 is {}".format(myNum2))
+print("Data Type of 0o1117 is {}".format(myNum3))
+print("Data Type of 0b1110 is {}".format(myNum4))
 

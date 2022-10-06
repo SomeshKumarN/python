@@ -1,7 +1,8 @@
 data = {
     'name':'somnath',
     'age':25,
-    'address':'mahilankottai'
+    'address':'mahilankottai',
+    'age':25
 }
 print(data)
 print(type(data))
@@ -23,20 +24,19 @@ for i in data.keys():
 for i,x in data.items():
     print(i,':',x) 
 
-# checking in keys:
+# # checking in keys:
 
-if 'age' in data:
-    print('yes') 
+# if 'age' in data:
+#     print('yes') 
 
-#checking in values:
+# #checking in values:
 
-if 25 in data.keys():
-    print('present')
+# if 25 in data.keys():
+#     print('present')
 
-# keys cannot be changed
-# update values
+# # keys cannot be changed
+# # update values
 
-data.update({'gender':'male'})
-print(data)
-
+# data.update({'gender':'male'})
+# print(data)
 
