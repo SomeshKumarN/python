@@ -183,7 +183,7 @@ while True:
                     for i in column:
                         columnnames = (columnnames+i)+' ' 
                     print("\nCOLUMNS NAMES :",columnnames.upper())
-                    print("\n//Enter Your Data. \nComma between one data to another data \nPress Double Enter Exit To Write Rows://")  
+                    print("\n//Enter Your Data. \nComma Between One Data To Another Data \nIf You Will Press Enter Double Time, You Can Exit From Write Rows.\n//")  
                     import pandas
                     a = pandas.read_csv(Fname)
                     d = len(a.columns.values)
@@ -220,7 +220,7 @@ while True:
                             except:
                                 print('//Enter Numbers Only.//')    
                         else:
-                            print('//No Data This File.//')
+                            print('//Column Only Available.So,Can Not Deleted It//')
                     else:
                             print('//No Data This File.//')                
             elif accessoption == 10:
