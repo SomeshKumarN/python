@@ -36,6 +36,7 @@ data.update({'key8':None})
 data['key8']='value8'
 print(data)
 
+
 abc = ['a', 'b', 'c', 'd', 'e']
 num = ["one","two","three"]
 a = dict.fromkeys(abc,num)

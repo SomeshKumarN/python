@@ -138,7 +138,7 @@ while True:
                 if clmname[0].isalnum() == True:
                     create_columns(Fname,clmname)
                 else:
-                    print("//Invaild Column.//")
+                    print("//Unsuccessfull.//")
             except:
                 print("//Unsuccessfull.//")             
     elif option == 3:
