@@ -14,7 +14,7 @@ print(data.values())
 print(data.items())
 
 #access in for loop:
- 
+
 for i in data:
     print(i,':',data[i])
 for i in data.values():
