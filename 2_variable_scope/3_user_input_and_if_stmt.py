@@ -75,8 +75,8 @@ def applicationStatus():
 # applicationStatus()
 
 #Approach 2: Using only one input from user
-submit_application_using_only_one_input_from_user()
-applicationStatus()
+# submit_application_using_only_one_input_from_user()
+# applicationStatus()
 
 #Basic Logical Operations 
 # True -- 1
@@ -100,3 +100,53 @@ applicationStatus()
 
 # True and True and True = True
 # True and True and False = False
+
+def isValidDate(date):
+     # "12-12-1990"
+    isDateContainsHyphen = hyphenValidation(date)
+    print("Is Date Contains Hyphen? ", isDateContainsHyphen)
+    isDateContainsValidDay = dayValidation(date)    
+    print("Is Date Contains Valid Day? ", isDateContainsValidDay)
+    
+    return False
+
+
+def hyphenValidation(date):
+    # validation1:
+    # Thhird character should be a hyphen
+    # Seventh character should be a hyphen
+   
+    separators = '-'
+   
+    thridCharacter = date[2]
+    seventhCharacter = date[5]
+    
+    print("Validating Hyphen in Date: \n--------------------------------\n", date)
+    print("Third Character: ", thridCharacter)
+    print("Seventh Character: ", seventhCharacter)
+    
+    if(thridCharacter ==separators and seventhCharacter == separators):
+        print ("Valid -- Third character is a hyphen and seventh character is a hyphen.")
+        return True        
+    else:
+        print ("Invalid --Third character is not a hyphen or seventh character is not a hyphen.")   
+        return False
+  
+def dayValidation(date):
+    isValidDay = False
+    print("Validating Day in Date: \n--------------------------------\n", date)
+    day = date[0:2]
+    print("Day: ", day)
+    if day.isdigit():
+        print("Valid -- Day is valid.")
+        isValidDay = True
+    
+    
+    return False
+    
+ 
+# dob = input("Please enter your date of birth (DD-MM-YYYY): ")
+# dob = "12-12-1990" 
+dob = "so-me-sh234" 
+dobValidationResult = isValidDate(dob)
+print("Is Date of Birth Valid? ", dobValidationResult)
