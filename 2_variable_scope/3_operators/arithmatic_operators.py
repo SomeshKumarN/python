@@ -131,4 +131,12 @@ print("Final Result for 2 --->", exponentials_2(2,6))
 print("Final Result for 3 --->", exponentials_3(2,6))
 print("Final Result for 4 --->", exponentials_4(2,6))
 
+# BEDMAS rule (Brackets, Exponents, Division/Multiplication, Addition/Subtraction)
+print((10-7+3+2**2)*4/2)
+(10-7+3+2**2)
+10-7+3+4 = 10
+
+(10)*4/2
+40/2
+20
 
