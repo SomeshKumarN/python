@@ -80,3 +80,25 @@ for data in personDetails:
     if(checkCity(city)):
         print(data['name'])
 
+#How to check the number is between 10 and 20
+number = 11
+if(number>=10):
+    if(number<=20):
+        print('number is between 10 & 20')
+    else:
+        print('number is greater than 10 but not lessthen 20')
+
+else:
+    print('the number is not between 10 & 20')
+
+
+if(10 <= number <= 20):
+    print('number is between 10 & 20')
+else:
+    print('the number is not between 10 & 20')
+
+
+if(10 <= number and number<= 20):
+    print('number is between 10 & 20')
+else:
+    print('the number is not between 10 & 20')
