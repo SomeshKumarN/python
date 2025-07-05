@@ -13,6 +13,9 @@
 
 # Example:
 
+from calendar import week
+
+
 def markGT35(mark):
     return mark>35
 
@@ -123,3 +126,27 @@ else:
 # Switch Case Statements
 # Python does not have a built-in switch-case statement like some other languages.
 # However, you can achieve similar functionality using dictionaries or if-elif-else statements.
+
+
+
+def switch_case_example(value):
+    switcher = {
+        "TEST": "Case 1",
+        "BEST": "Case 2",
+        "OOP": "Case 3"
+    }
+    return switcher.get(value, "Default case")
+
+
+def switch_case_example_if(value):
+    if value == 1:
+        return "Case 1"
+    elif value == 2:
+        return "Case 2"
+    elif value == 3:
+        return "Case 3"
+    else:
+        return "Default case"
+
+result = switch_case_example("TEST")
+print(result)  
