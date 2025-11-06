@@ -32,10 +32,10 @@ range1 = [1,2,3,4,5,"Chumma",6,7,8,9]
 
 
 
-for thirumal in range1:
-    if(thirumal=="Chumma"):
+for i in range1:
+    if(i=="Chumma"):
         continue
-    if(thirumal==7):
+    if(i==7):
         break
     # print('*' * i)
     
@@ -43,8 +43,8 @@ range2 = [1,2,3,4,5]
 
 bharathi = range2[4]
 
-for thirumal in range2:
-    value = ' '* (bharathi-thirumal)+'*' * thirumal
+for i in range2:
+    value = ' '* (bharathi-i)+'*' * i
     # print(value)
     
 # **********
@@ -67,5 +67,20 @@ for thirumal in range2:
 
 index=1
 while(index != 5):
-    print('*' * index)
+    # print('*' * index)
     index +=1
+    
+n =25   
+index = n
+while(index>0):
+    print(' '*(n-index)+'*'* index+'*'* index)
+    index -=1
+    
+temp = n   
+for i in range(n):
+    print(' '* (temp-i)+'*' * i+"*" *i)
+
+
+N = range(7)
+for I in N:
+    print(' '*I +"*****")
