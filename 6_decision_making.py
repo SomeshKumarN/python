@@ -150,3 +150,24 @@ def switch_case_example_if(value):
 
 result = switch_case_example("TEST")
 print(result)  
+
+
+
+number =10
+if(number>20):
+    print("First")
+elif(number<10):
+    print("second")
+elif(number<15):
+    print("second1")
+elif(number<40):
+    print("second2")
+    print("second2")
+    print("second2")
+    print("second2")
+    print("second2")
+else:
+    print("No")
+    
+result = "True" if (number<10) else "False"
+print(result)

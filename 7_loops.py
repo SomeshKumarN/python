@@ -28,6 +28,44 @@ for number in numbers:
         print("Condition not met")
         
 
-range1 = [1,2,3,4,5]        
-for i in range1:
-    print('*' * i)
+range1 = [1,2,3,4,5,"Chumma",6,7,8,9]        
+
+
+
+for thirumal in range1:
+    if(thirumal=="Chumma"):
+        continue
+    if(thirumal==7):
+        break
+    # print('*' * i)
+    
+range2 = [1,2,3,4,5]  
+
+bharathi = range2[4]
+
+for thirumal in range2:
+    value = ' '* (bharathi-thirumal)+'*' * thirumal
+    # print(value)
+    
+# **********
+#  ********
+#   ****** 
+#    ****
+#     ** 
+#     **
+#    ****
+#   ******
+#  ********
+# **********    
+
+
+# while(condition):
+    # statements
+    # code
+# else:
+    # statement
+
+index=1
+while(index != 5):
+    print('*' * index)
+    index +=1
